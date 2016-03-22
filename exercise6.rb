@@ -1,6 +1,6 @@
 #Shopping list
 
-grocery_list = ["apples", "carrots", "potatoes"]
+grocery_list = ["apples", "carrots", "potatoes", "salmon"]
 
 def display(grocery_list)
   grocery_list.each { |item| puts "* #{item}"}
@@ -22,3 +22,13 @@ if grocery_list.include?("bananas")
 else
   puts "You don't need to pick up bananas today."
 end
+
+#Step 4
+puts grocery_list[1]
+
+#Step 5
+display(grocery_list.sort)
+# First I sort the list then pass it to display method
+
+#Step 6
+grocery_list.delete("salmon")
