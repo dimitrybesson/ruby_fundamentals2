@@ -12,6 +12,11 @@ display(grocery_list)
 #Step 1, again
 grocery_list << "rice"
 display(grocery_list)
+#Alternatively as a method
+# def add(list, item)
+#   list << item
+# end
+# add(grocery_list, 'rice')
 
 #Step 2
 puts grocery_list.length
