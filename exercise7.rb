@@ -7,7 +7,9 @@ students = {
 
 # Step 2
 def display(hash)
-  hash.each { |k, v| puts "#{k}: #{v} students" }
+  hash.each do |k, v|
+    puts "#{k}: #{v} students"
+  end
 end
 
 display(students)
@@ -21,8 +23,8 @@ students[:cohort4] = 43
 puts students.keys
 
 # Step 5
-students.each do |k, v|
-   students[k] = v * 1.05
+extended = students.each do |k, v|
+  students[k] = v * 1.05
 end
 
 display(students)

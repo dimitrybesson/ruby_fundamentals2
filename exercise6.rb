@@ -3,7 +3,9 @@
 grocery_list = ["apples", "carrots", "potatoes", "salmon"]
 
 def display(grocery_list)
-  grocery_list.each { |item| puts "* #{item}"}
+  grocery_list.each do |item|
+    puts "* #{item}"
+  end
 end
 
 #Step 1
