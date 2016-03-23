@@ -12,7 +12,7 @@ end
 
 display(students)
 #add an options parameter for rounding?
-#use it for step 5? 
+#use it for step 5?
 
 # Step 3
 students[:cohort4] = 43
@@ -36,3 +36,6 @@ display(students)
 sum = 0
 students.each {|k , v| sum = sum + v }
 puts sum
+
+#Alternatively:
+#puts students.values.reduce(:+)
