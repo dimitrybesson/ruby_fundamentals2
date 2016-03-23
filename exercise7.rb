@@ -24,7 +24,7 @@ puts students.keys
 
 # Step 5
 extended = students.each do |k, v|
-  students[k] = v * 1.05
+  students[k] = (v * 1.05).round
 end
 
 display(students)
