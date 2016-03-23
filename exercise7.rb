@@ -30,7 +30,7 @@ display(students)
 # Step 6
 students.delete(:cohort2)
 display(students)
-# is there another way to delete? maybe using index
+# is there another way to delete? maybe using index. Yes, delete_at(index)
 
 # Step 7
 sum = 0
