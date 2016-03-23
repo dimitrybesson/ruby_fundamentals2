@@ -32,3 +32,4 @@ display(grocery_list.sort)
 
 #Step 6
 grocery_list.delete("salmon")
+display(grocery_list)
